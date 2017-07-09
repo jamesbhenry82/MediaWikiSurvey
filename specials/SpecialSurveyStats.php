@@ -256,7 +256,7 @@ class SpecialSurveyStats extends SpecialSurveyPage {
 					array(),
 					$this->msg( 'surveys-surveystats-question-answer', $answer )->numParams( $answerCount )->text()
 				);
-			}
+			} 
 			
 			return $list . '</ul>';
 		}
